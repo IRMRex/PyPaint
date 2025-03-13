@@ -1,6 +1,7 @@
-#V1.0
+#V1.1
 import pygame
-import sys
+import sys, os
+os.system('clear')
 
 pygame.init()
 width, height = 1000, 800
@@ -124,11 +125,23 @@ while running:
         background_color = (255, 255, 255)
     elif background_select == 2:
         background_color = (0, 0, 0)
+    elif background_select == 3:
+        background_color = (255, 0, 0)
+    elif background_select == 4:
+        background_color = (0, 255, 0)
+    elif background_select == 5:
+        background_color = (0, 0, 255)
+    elif background_select == 6:
+        background_color = (255, 255, 0)
+    elif background_select == 7:
+        background_color = (255, 0, 255)
+    elif background_select == 8:
+        background_color = (0, 255, 255)
     #Background limiter
-    elif background_select >= 3:
+    elif background_select > 8:
         background_select = 1
     elif background_select <= 0:
-        background_select = 2
+        background_select = 8
     #shape limiter
     if shape <= 0:
         shape = 3
