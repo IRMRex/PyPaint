@@ -1,4 +1,4 @@
-Last update 4/3/25
+Last update 4/4/25 :: This application uses pygame. To install paste this command for Mac "pip3 install pygame" or for windows use "pip install pyagme".
 # Drawing application
 ## Modes 
 There are three switch-able modes accesable using the "m" key. The first mode is the color and width changing mode. The second mode is the background color mode. Finally, the third mode is the shape changing mode.
