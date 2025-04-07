@@ -1,5 +1,4 @@
-Last update 4/4/25 :: This application uses pygame. To install paste this command for Mac "pip3 install pygame" or for windows use "pip install pyagme".
-# Drawing application
+Last update 4/7/25 :: This application uses pygame. To install paste this command for Mac "pip3 install pygame" or for windows use "pip install pyagme".
 ## Modes 
 There are three switch-able modes accesable using the "m" key. The first mode is the color and width changing mode. The second mode is the background color mode. Finally, the third mode is the shape changing mode.
 ### Mode 1
@@ -11,4 +10,4 @@ Using the left/right arrow keys, you can change between a square, circle, or ell
 ## Controls
 Move around the screen by using WASD. Pressing "R" will reset the canvas.
 ## Release schedule
-x.1 and x.4 will be features that were delayed or extra features. x.2 and x.3 will be minor features and bug fixes. x.5 will be delayed x.4 features and will not always be release before the next major version.
+x.1 and x.4 will be features that were delayed or extra features. x.2 and x.3 will be minor features and bug fixes. x.5 will be delayed x.4 features and will not always be release before the next major version. x.4 will not always be one the regular month to month schedule because of the next major version.
