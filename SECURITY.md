@@ -1,6 +1,7 @@
 # Security Policy
 
 ## Supported Versions
+Most recent snapshot is also supported
 
 | Version | Supported          |
 | ------- | ------------------ |
